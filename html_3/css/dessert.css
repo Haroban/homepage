@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0;}
+ul,ol,li{list-style:none; margin:0; padding:0;}
+img{border:0;}
+img a{border:0;}
+
+#wrap{width:1600px; margin:0 auto;}
+header{float:left; width:1600px; height:190px; margin:0; background-color:gray; background-image:url(../image/main_top.jpg); background-repeat:no-repeat; background-position:center;}
+header h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:40px; color:#fff; margin:50px 0 0 695px;}
+header a{text-decoration:none; color:#fff;}
+
+#menu{float:left; width:1100px; height:30px; margin:30px 0 0 230px; border-top:1px solid #e4e3e2; border-bottom:1px solid #e4e3e2;}
+#menu ul{float:left; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#fff; margin:4px 0 0 230px;}
+#menu li{float:left; padding:0 30px 0 30px;}
+#menu li a{text-decoration:none; color:#dad9d9;}
+#menu a:hover{color:#fff;}
+
+section{float:left; width:1600px; height:6190px; margin:0; background-color:pink;}
+#cake{float:left; width:100%; height:894px; background-image:url(../image/mainbg_1.jpg); margin:0; background-repeat:no-repeat; background-position:left top;}
+#cake .box{float:left; width:515px; height:560px; margin:280px 0 0 90px;}
+#cake .box h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:150px; color:#fff; margin:0;}
+#cake .box p{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#dcd0d0; margin:0; line-height:150%;}
+#cake ul{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#323131; margin:100px 0 0 0px; text-align:center;}
+#cake li{float:left; padding: 0 50px 0 35px;}
+#cake li:first-child{color:#fff;}
+#cake li:first-child a{text-decoration:none; color:#fff;}
+#cake li a{text-decoration:none; color:#323131;}
+#cake .btn{float:left; width:150px; height:35px; font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#fff; margin:80px 0 0 60px; text-align:center; padding:3px 0 0 0px; border:2px solid #fff;}
+#cake .btn a{text-decoration:none; color:#fff;}
+
+#cake2{float:left; width:100%; height:1065px; background-image:url(../image/mainbg_2.jpg); margin:0; background-repeat:no-repeat; background-position:left top;}
+#cake2 .box1{width:320px; height:605px; float:left; margin:180px 0 0 130px; text-align:center;}
+#cake2 .box1 h3{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#000; margin:70px 0 0 0px; text-align:center;}
+#cake2 .box1 p{float:left; width:60%; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#96724b; margin:30px 0 0 60px; text-align:justify;}
+#cake2 .box1 .btn{float:left; width:122px; height:35px; font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#633a21; margin:70px 0 0 100px; text-align:center; padding:5px 0 0 0px; border:2px solid #e2b695;}
+#cake2 .box1 .btn a{text-decoration:none; color:#633a21;}
+#cake2 .box2{width:410px; height:605px; float:left; margin:180px 0 0 130px; text-align:center;}
+#cake2 .box2 h3{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#000; margin:70px 0 0 0px; text-align:center;}
+#cake2 .box2 p{float:left; width:50%; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#96724b; margin:30px 0 0 100px; text-align:justify;}
+#cake2 .box2 .btn{float:left; width:122px; height:35px; font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#633a21; margin:70px 0 0 150px; text-align:center; padding:5px 0 0 0px; border:2px solid #e2b695;}
+#cake2 .box2 .btn a{text-decoration:none; color:#633a21;}
+#cake2 .box3{width:320px; height:605px; float:left; margin:180px 0 0 140px; text-align:center;}
+#cake2 .box3 h3{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#000; margin:70px 0 0 0px; text-align:center;}
+#cake2 .box3 p{float:left; width:60%; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#96724b; margin:30px 0 0 70px; text-align:justify;}
+#cake2 .box3 .btn{float:left; width:122px; height:35px; font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#633a21; margin:70px 0 0 110px; text-align:center; padding:5px 0 0 0px; border:2px solid #e2b695;}
+#cake2 .box3 .btn a{text-decoration:none; color:#633a21;}
+#cake2 img{margin:0 20px 0 0px;}
+
+#macaron{float:left; width:100%; height:1010px; background-image:url(../image/mainbg_3.jpg); margin:0; background-repeat:no-repeat; background-position:left top;}
+#macaron .box{float:left; width:405px; height:310px; margin:275px 0 0 1125px;}
+#macaron h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:110px; color:#fff; margin:0;}
+#macaron p{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#aaa3a3; margin:0; text-align:justify;} 
+
+#sweets{float:left; width:100%; height:490px; background-image:url(../image/mainbg_4.jpg); margin:0; background-repeat:no-repeat; background-position:left top;}
+#sweets .box{float:left; width:1150px; height:420px; margin:40px 0 0 270px;}
+#sweets ul{float:left; magin:0;}
+#sweets li{float:left; padding:0 38px 0 0px;}
+#sweets h2{float:left; width:190px; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#fff; margin:30px 60px 0 20px; padding:0 25px 0 40px; text-align:center;}
+#sweets img{float:left; margin:0; border:4px solid #fff;}
+
+#organic{float:left; width:100%; height:600px; background-image:url(../image/mainbg_5.jpg); margin:0; background-repeat:no-repeat; background-position:left top;}
+#organic .box{float:left; width:715px; height:390px; margin:145px 0 0 765px;}
+#organic h2{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:30px; color:#fff; margin:0 0 0 170px;}
+#organic h1{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#fff; margin:70px 0 0 10px;}
+#organic p{float:left; width:80%; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#b2a8a8; margin:15px 0 0 0px; text-align:justify;}
+
+#ice{float:left; width:100%; height:870px; background-image:url(../image/mainbg_6.jpg); margin:0; background-repeat:no-repeat; background-position:left top;}
+#ice .box1{float:left; width:580px; height:190px; margin:40px 0 0 880px;}
+#ice .box2{float:left; width:500px; height:125px; margin:0 0 0 975px;}
+#ice h4{float:left; font-family:Arial, Helvetica, sans-serif; font-size:120px; color:#fff; margin:250px 0 0 860px;}
+#ice h1{float:left; width:410px; height:40px; font-family:Arial, Helvetica, sans-serif; font-size:28px; color:#fff; margin:0 0 0 90px; background-color:#583304; text-align:center; background-image:url(../image/7.jpg), url(image/7.jpg); background-repeat:repeat-y; background-position:top left, top right;}
+
+#ice p{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#cec0a6; margin:20px 0 0 0px;}
+#ice ul{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#fff; margin:50px 0 0 0px; text-align:center;}
+#ice li{float:left; padding: 0 50px 0 30px;}
+#ice li a{text-decoration:none; color:#fff;}
+.f1{font-size:30px;} 
+
+#lecipe{float:left; width:100%; height:575px; background-image:url(../image/mainbg_7.jpg); margin:0; background-repeat:no-repeat; background-position:left top;}
+#lecipe .box1{float:left; width:445px; height:220px; margin:20px 1000px 0 120px;}
+#lecipe .box2{float:left; width:445px; height:220px; margin:70px 0 0 120px;}
+#lecipe h1{float:left; width:445px; height:35px; font-family:Arial, Helvetica, sans-serif; font-size:28px; color:#fff; margin:0; text-align:center; background-color:#583304;}
+#lecipe p{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#edd8b4; margin:0;}
+#lecipe .btn{float:left; width:55px; height:20px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#fff; margin:60px 0 0 370px; text-align:center; padding:3px 0 0 0px; border:1px solid #fff;}
+#lecipe .btn a{text-decoration:none; color:#fff;}
+
+#dessert{float:left; width:1600px; height:690px; background-image:url(../image/mainbg_8_1.jpg); margin:0; background-repeat:no-repeat; background-position:left top;}
+#dessert .box1{float:left; width:435px; height:530px; margin:0 40px 0 55px; text-align:center;}
+#dessert .box1 h1{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#fff; margin:50px 0 0 0px; text-align:center;}
+#dessert .box1 p{float:left; width:50%; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#f7d7a0; margin:10px 0 30px 100px; text-align:justify;}
+#dessert .box1 .btn{float:left; width:120px; height:30px; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#633a21; margin:20px 0 0 150px; text-align:center; padding:2px 0 0 0px; background-color:#d5c4a5;}
+#dessert .box1 .btn a{text-decoration:none; color:#633a21;}
+#dessert .box2{float:left; width:435px; height:530px; margin:0 40px 0 50px; text-align:center;}
+#dessert .box2 h1{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#fff; margin:30px 0 0 0px; text-align:center;}
+#dessert .box2 p{float:left; width:50%; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#f7d7a0; margin:10px 0 30px 100px; text-align:justify;}
+#dessert .box2 .btn{float:left; width:120px; height:30px; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#633a21; margin:20px 0 0 150px; text-align:center; padding:2px 0 0 0px; background-color:#d5c4a5;}
+#dessert .box2 .btn a{text-decoration:none; color:#633a21;}
+#dessert .box3{float:left; width:435px; height:530px; margin:0 40px 0 50px; text-align:center;}
+#dessert .box3 h1{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#fff; margin:50px 0 0 0px; text-align:center;}
+#dessert .box3 p{float:left; width:50%; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#f7d7a0; margin:10px 0 30px 100px; text-align:justify;}
+#dessert .box3 .btn{float:left; width:120px; height:30px; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#633a21; margin:20px 0 0 150px; text-align:center; padding:2px 0 0 0px; background-color:#d5c4a5;}
+#dessert .box3 .btn a{text-decoration:none; color:#633a21;}
+
+
+footer{float:left; width:1600px; height:265px; margin:0; background-color:#000000;}
+footer h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:40px; color:#858585; margin:15px 0 0 0px; text-align:right;}
+footer h3{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:17px; color:#bfb7b7; margin:0 0 15px 0px;}
+footer p{float:left; width:90%; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#bfb7b7; margin:5px 0 0 0px; line-height:150%;}
+footer ul{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#bfb7b7; margin:20px 0 0 0px;}
+footer li{float:left; padding:0 3px 0 3px;}
+footer li a{text-decoration:none; color:#bfb7b7;} 
+footer .box1{float:left; width:490px; height:80px; margin:110px 0 0 125px;}
+footer .box2{float:right; width:580px; height:175px; margin:85px 60px 0 0px;}
+footer .box3{float:left; width:1600px; height:30px; background-color:#242425; margin:0; text-align:center; border-top:1px solid #757575;}
+
+
+
+
+
+
+/*sub*/
+#sub{float:left; width:100%; height:3435px; background-image:url(../image/sub_bg.jpg); background-repeat:no-repeat; background-position:left top; margin:0;}
+#sub_banner{float:left; width:1305px; height:175px; background-image:url(../image/sub_1.jpg); background-repeat:no-repeat; background-position:left top; margin:28px 0 0 146px;}
+article{float:left; width:1305px; height:3175px; margin:0 0 0 146px;}
+
+aside{float:left; width:220px; height:325px; margin:60px 0 0 30px;}
+aside h3{float:left; width:210px; font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#c02220; margin:15px 0 0 0px; border-bottom:2px solid #f51616; padding:0 0 10px 10px;}
+aside ul{font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#d0c7c7; float:left; margin:30px 0 0 0px;}
+aside li{line-height:100%; width:210px; padding:20px 0 0 10px; border-bottom:1px solid #d0c7c7; padding:10px 0 10px 10px; margin:10px 0 0 0px;}
+.f1{float:right; margin:0 15px 0 0px; font-size:17px;}
+aside li a{text-decoration:none; color:#d0c7c7;}
+aside li:first-child{color:#ff6161;}
+
+#contents{float:left; width:1015px; height:3085px; margin:60px 0 0 15px;}
+#contents .info{float:right; width:1015px; height:35px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#d0c7c7; margin:16px 0 0 0px;  border-bottom:1px solid #d6d3c8; padding:3px 0 0 0px; text-align:right;}
+#contents .info img{float:left; margin:0 0 0 865px;}
+#contents h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#c02220; margin:70px 0 0 0px;}
+#contents h3{float:left; width:320px; font-family:Arial, Helvetica, sans-serif; font-size:25px; color:#fda13b; margin:30px 0 0 120px;}
+#contents h1{float:left; width:320px; font-family:"맑은 고딕"; font-size:16px; color:#8e8786; margin:8px 0 0 120px;}
+#contents p{float:left; width:320px; font-family:"맑은 고딕"; font-size:14px; color:#ada8a7; margin:0 0 0 120px;}
+.f2{font-size:11px;}
+.f3{font-size:11px; color:#eaba5d; margin:20px 0 0 390px;}
+#contents img{float:left; margin:0;}
+#contents .box1{float:left; width:980px; height:231px; margin:10px 0 0 0px; border:1px solid #e1dada;}
+#contents .box1 .box{float:left; width:480px; height:50px; margin:20px 0 0 120px;}
+#contents .box1 .box p{float:left; width:100%; font-family:"맑은 고딕"; font-size:14px; color:#ada8a7; margin:0 0 10px 0px;}
+#contents .box2{float:left; width:980px; height:231px; margin:60px 0 0 0px; border:1px solid #e1dada;}
+#contents .box2 .box{float:left; width:480px; height:50px; margin:20px 0 0 120px;}
+#contents .box2 .box p{float:left; width:100%; font-family:"맑은 고딕"; font-size:14px; color:#ada8a7; margin:0 0 10px 0px;}
+#contents .box3{float:left; width:980px; height:232px; margin:60px 0 0 0px; border:1px solid #e1dada;}
+#contents .box3 .box{float:left; width:480px; height:50px; margin:20px 0 0 120px;}
+#contents .box3 .box p{float:left; width:100%; font-family:"맑은 고딕"; font-size:14px; color:#ada8a7; margin:0 0 10px 0px;}
+#contents .box4{float:left; width:980px; height:232px; margin:60px 0 0 0px; border:1px solid #e1dada;}
+#contents .box4 .box{float:left; width:480px; height:50px; margin:20px 0 0 120px;}
+#contents .box4 .box p{float:left; width:100%; font-family:"맑은 고딕"; font-size:14px; color:#ada8a7; margin:0 0 10px 0px;}
+#contents .box5{float:left; width:980px; height:232px; margin:60px 0 0 0px; border:1px solid #e1dada;}
+#contents .box5 .box{float:left; width:480px; height:50px; margin:20px 0 0 120px;}
+#contents .box5 .box p{float:left; width:100%; font-family:"맑은 고딕"; font-size:14px; color:#ada8a7; margin:0 0 10px 0px;}
+#contents .box6{float:left; width:980px; height:232px; margin:60px 0 0 0px; border:1px solid #e1dada;}
+#contents .box6 .box{float:left; width:480px; height:50px; margin:20px 0 0 120px;}
+#contents .box6 .box p{float:left; width:100%; font-family:"맑은 고딕"; font-size:14px; color:#ada8a7; margin:0 0 10px 0px;}
+#contents .box7{float:left; width:980px; height:232px; margin:60px 0 0 0px; border:1px solid #e1dada;}
+#contents .box7 .box{float:left; width:480px; height:50px; margin:20px 0 0 120px;}
+#contents .box7 .box p{float:left; width:100%; font-family:"맑은 고딕"; font-size:14px; color:#ada8a7; margin:0 0 10px 0px;}
+#contents .box8{float:left; width:980px; height:232px; margin:60px 0 0 0px; border:1px solid #e1dada;}
+#contents .box8 .box{float:left; width:480px; height:50px; margin:20px 0 0 120px;}
+#contents .box8 .box p{float:left; width:100%; font-family:"맑은 고딕"; font-size:14px; color:#ada8a7; margin:0 0 10px 0px;}
+#contents .box9{float:left; width:980px; height:232px; margin:60px 0 0 0px; border:1px solid #e1dada;}
+#contents .box9 .box{float:left; width:480px; height:50px; margin:20px 0 0 120px;}
+#contents .box9 .box p{float:left; width:100%; font-family:"맑은 고딕"; font-size:14px; color:#ada8a7; margin:0 0 10px 0px;}
+#contents .box10{float:left; width:980px; height:232px; margin:60px 0 0 0px; border:1px solid #e1dada;}
+#contents .box10 .box{float:left; width:490px; height:50px; margin:20px 0 0 120px;}
+#contents .box10 .box p{float:left; width:100%; font-family:"맑은 고딕"; font-size:14px; color:#ada8a7; margin:0 0 10px 0px;}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0;}
+ul,ol,li{list-style:none; margin:0; padding:0;}
+img{border:0;}
+img a{border:0;}
+
+#wrap{width:1600px; margin:0 auto;}
+#slider{float:left; width:1600px; height:840px; margin:0; background-image:url(../image/1.jpg); background-repeat:no-repeat; background-position:center;}
+#slider h3{float:left; width:100%; font-family:"돋움"; font-size:35px; color:#fff; margin:315px 0 0 0px; letter-spacing:10px; text-align:center;}
+#slider h2{float:left; width:100%; font-family:"돋움"; font-size:11px; color:#fff; margin:10px 0 0 0px; letter-spacing:5px; text-align:center;}
+#slider h4{float:left; width:100%; font-family:"돋움"; font-size:40px; color:#fff; margin:215px 0 0 0px; text-align:center;}
+.f1{font-size:34px;}
+
+header{float:left; width:1600px; height:280px; margin:0;}
+header ul{font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#c8eaff; float:left; margin:130px 30px 0 450px;}
+header li{float:left; padding:0 20px 0 20px;}
+header li a{text-decoration:none; color:#53bcff}
+header a:hover{color:#c8eaff;}
+
+nav{float:left; width:1600px; height:200px; margin:0;}
+#logo{float:left; width:300px; height:100px; margin:50px 0 0 215px;}
+#menu{float:right; width:1085px; height:110px; margin:50px 0 0 0px;}
+#menu ul{float:left; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#4dcbff; margin:25px 0 0 110px;}
+#menu li{float:left; padding:0 20px 0 20px;}
+#menu li a{text-decoration:none; color:#2080ed;}
+#menu a:hover{color:#4dcbff;} 
+
+section{float:left; width:1600px; height:10545px; margin:0;}
+#sports{float:left; width:1315px; height:730px;margin:0 0 55px 145px; background-color:#e2f9f9; background-image:url(../image/2.jpg); background-repeat:no-repeat; background-position:center;}
+#sports h2{float:left; width:100%; font-family:"돋움"; font-size:23px; color:#656363; margin:525px 0 0 0px; letter-spacing:15px; text-align:center;}
+#sports p{float:left; width:100%; font-family:"돋움"; font-size:12px; color:#656363; margin:0; letter-spacing:2px; text-align:center;}
+#sports h3{float:left; width:100%; font-family:"돋움"; font-size:35px; color:#5c5b5b; margin:20px 0 0 0px; text-align:center;}
+
+#skydive{float:left; width:1315px; height:690px; margin:0 0 70px 145px; background-image:url(../image/3_1.jpg); background-repeat:no-repeat; background-position:center;}
+#skydive .box{float:left; width:515px; height:410px; margin:170px 30px 0 20px;}
+#skydive .box h4{float:left; width:100%; height:120px; font-family:Arial, Helvetica, sans-serif; font-size:40px; color:#1c317a; margin:10px 20px 0 0px; text-align:right; padding:0 10px 0 0px;}
+#skydive .box p{float:left; width:495px; height:225px; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#9c9b9b; margin:60px 0 0 0px; text-align:left; line-height:150%;}
+#skydive .box2{float:left; width:95px; height:35px; margin:477px 0 0 0px;}
+#skydive .box2 h1{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; margin:5px 0 150px 0px; text-align:center;}
+
+#snorkling{float:left; width:1315px; height:715px; margin:0 0 60px 145px; background-image:url(../image/4_4.jpg); background-repeat:no-repeat; background-position:center;}
+#snorkling h1{float:left; width:100px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#5b5b5b; margin:67px 0 0 1225px;}
+#snorkling h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:40px; color:#494949; margin:40px 0 0 340px;}
+#snorkling ul{float:left; margin:55px 0 0 277px; width:100%; height:200px;}
+#snorkling li{float:left; padding:0 32px 0 26px;}
+#snorkling p{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#959595; margin:65px 0 0 160px; line-height:150%;}
+
+#surfing{float:left; width:1315px; height:695px; margin:0 0 90px 145px; background-image:url(../image/5.jpg); background-repeat:no-repeat; background-position:center;}
+#surfing .box1{float:left; width:460px; height:540px; margin:80px 0 0 594px;}
+#surfing .box1 h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:40px; color:#056f88; margin:85px 0 0 35px;}
+#surfing .box1 p{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#5a94a8; margin:32px 0 0 40px; line-height:150%;}
+#surfing .box2{float:left; width:100px; height:35px; margin:110px 0 0 160px;}
+#surfing .box2 h1{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fff; margin:8px 0 0 0px; text-align:center;}
+#surfing .btn{width:95px; height:20px; background-color:#d5f1fb; float:right; margin:30px 40px 0 0px; border:1px solid #fafdff; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#1a4b76; text-align:center; padding:5px 0 0 0px;}
+#surfing .btn a{text-decoration:none; color:#1a4b76;}
+
+#driving{float:left; width:1315px; height:520px; margin:0 0 90px 145px; background-image:url(../image/6_1.jpg); background-repeat:no-repeat; background-position:center;}
+#driving .box1{float:left; width:100px; height:35px; margin:385px 0 0 0px;}
+#driving .box1 h1{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#5b5b5b; margin:10px 0 0 20px;}
+#driving .box2{float:left; width:1115px; height:310px; margin:135px 0 0 100px;}
+#driving .box2 h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:40px; color:#fff; margin:0;}
+#driving .box2 p{float:left; width:500px; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#fff; margin:20px 0 0 0px; text-align:left; line-height:150%;}
+#driving .box2 img{float:right; width:605px; height:225px; margin:0;}
+
+#food{float:left; width:1600px; height:1215px; margin:0 0 70px 0px; background-color:#f3f3f3;}
+#food h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:45px; color:#bd571a; margin:140px 0 0 0px; text-align:center; letter-spacing:30px;}
+#food .box1{float:left; width:1000px; height:725px; margin:95px 0 0 300px;}
+#food .box{width:295px; height:705px; float:left;}
+.mr5{float:left; margin:0 20px 0 0px;}
+.mr10{float:left; margin:0 20px 0 20px;}
+#food img{float:left; width:270px; height:270px; margin:0 10px 0 12px;}
+#food .box h2{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#333; margin:80px 0 0 0px; text-align:center;}
+.line{background-color:#bababa; padding-top:1px; float:left; width:1px; height:100px; margin:20px 0 0 150px;}
+#food .box p{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#737171; margin:30px 0 0 0px; text-align:center;}
+
+#aloha{float:left; width:1600px; height:2055px; margin:0 0 80px 0px;}
+#aloha .box1{float:left; width:1600px; height:530px; margin:0; background-image:url(../image/8_1.jpg);}
+#aloha .box1 h2{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:40px; color:#fff; margin:235px 0 0 10px; text-align:center; letter-spacing:30px;}
+#aloha .box1 p{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#fff; margin:0; text-align:center; letter-spacing:13px;}
+#aloha .box2{float:left; width:1065px; height:1025px; margin:0 0 0 272px; background-image:url(../image/8_2.jpg);}
+#aloha .box2 .box4{float:left; width:440px; height:380px; margin:530px 3px 0 85px;}
+#aloha .box2 .box4 h4{float:left; width:100%; margin:0 0 0 10px; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#555454;}
+#aloha .box2 .box4 p{float:left; width:400px; margin:30px 0 0 15px; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#5b5b5b; text-align:left; line-height:200%;}
+#aloha .box2 .box5{float:left; width:375px; height:530px; margin:380px 0 0 2px;}
+#aloha .box2 .box5 h2{float:right; width:100%; margin:40px 20px 0 0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#2d2a2a; text-align:right;}
+#aloha .box2 .box5 p{float:left; width:280px; margin:230px 0 0 45px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8d8787; text-align:center; line-height:150%;}
+#aloha .box3{float:left; width:1065px; height:500px; margin:0 0 0 272px; background-image:url(../image/8_3.jpg);}
+#aloha .box3 .box6{float:left; width:75px; height:20px; margin:322px 0 0 0px;}
+#aloha .box3 .box6 h1{float:left; width:100%; margin:2px 0 0 0px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#5b5b5b; text-align:center;}
+#aloha .box3 .box7{float:left; width:360px; height:175px; margin:235px 0 0 99px;}
+#aloha .box3 .box7 h4{float:left; width:100%; margin:0; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#e30d11;}
+#aloha .box3 .box7 p{float:left; width: 90%; margin:10px 0 0 0px; font-family:"돋움"; font-size:12px; color:#854a4a; text-align:left; line-height:150%;}
+#aloha .box3 .box8{float:right; width:530px; height:185px; margin:235px 0 0 0px; background-image:url(../image/14.jpg); background-repeat:no-repeat; background-position:left top;}
+#aloha .btn{width:95px; height:20px; background-color:#fff; float:right; magin:40px 60px 0 0px; border:1px solid #7a7c7c; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#5b5b5b; text-align:center; padding:5px 0 0 0px;}
+#aloha .btn a{text-decoration:none; color:#666;}
+
+#fall{float:left; width:1070px; height:580px; margin:0 0 70px 270px; background-image:url(../image/15.jpg); background-repeat:no-repeat; background-position:center;}
+#fall .box1{float:left; width:490px; height:220px; margin:195px 0 0 565px;}
+#fall .box1 h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:40px; color:#8ab44a; margin:0;}
+#fall .box1 p{float:left; width:80%; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#9cb694; margin:10px 0 0 0px; text-align:left; line-height:150%;}
+#fall .box2{float:right; width:75px; height:20px; margin:73px 5px 0 0px;}
+#fall .box2 h1{float:left; width:100%; font-family:"돋움"; font-size:14px; color:#fff; margin:3px 0 0 0px; text-align:center;}
+
+#volcano{float:left; width:1070px; height:575px; margin:0 0 85px 270px; background-image:url(../image/16.jpg); background-repeat:no-repeat; background-position:center;}
+#volcano .box1{float:left; width:75px; height:20px; margin:127px 5px 0 0px;}
+#volcano .box1 h1{float:left; width:100%; font-family:"돋움"; font-size:14px; color:#fff; margin:3px 0 0 3px; text-align:center;} 
+#volcano .box2{float:left; width:470px; height:215px; margin:250px 0 0 0px;}
+#volcano .box2 h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:40px; color:#fe8432; margin:0;}
+#volcano .box2 p{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#c2b1a4; margin:10px 0 0 0px; text-align:left; line-height:150%;} 
+
+#holiday{float:left; width:1070px; height:470px; margin:0 0 125px 270px; background-color:#f6f3f3;}
+#holiday .box1{float:left; width:960px; height:375px; margin:80px 0 0 0px; background-color:#fff;}
+#holiday .box1 h4{float:left; width:365px; font-family:Arial, Helvetica, sans-serif; font-size:40px; color:#81d748; margin:150px 0 0 90px;}
+#holiday .box1 p{float:left; width:465px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#99b184; margin:20px 0 0 15px; text-align:left; line-height:150%;}
+#holiday .box1 img{float:left; margin:110px 5px 0 0px;}
+
+#beautiful{float:left; width:1070px; height:605px; margin:0 0 130px 270px; background-image:url(../image/18_1.jpg); background-repeat:no-repeat; background-position:center;}
+#beautiful .box{float:right; width:340px; height:265px; margin:170px 50px 0 0px;}
+#beautiful .box h4{float:right; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:40px; color:#3dac3d; text-align:right; margin:0;}
+#beautiful .box p{float:left; width:90%; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#a7d3a1; text-align:left; line-height:150%; margin:30px 0 0 20px; line-height:200%;}
+
+#trip{float:left; width:1015px; height:675px; margin:0 0 130px 300px;}
+#trip .box{float:right; width:510px; height:165px; margin:270px 0 0 0px;}
+#trip .box h4{float:right; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#3b7fc7; margin:0;}
+#trip .box p{float:left; width:90%; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#7e9fc0; margin:30px 0 0 0px; text-align:left; line-height:150%;}
+#trip .btn{width:95px; height:20px; background-color:#acc9e7; float:right; magin:70px 40px 0 0px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#fff; text-align:center; padding:5px 0 0 0px;}
+#trip .btn a{text-decoration:none; color:#fff;}
+#trip img{float:left; margin:0;}
+
+footer{float:left; width:1600px;; height:335px; margin:0; background-color:#434141; background-image:url(../image/sub_logo2.jpg); background-repeat:no-repeat; background-position:95% 80%;}
+footer .box{float:left; width:190px; height:174px; margin:50px 50px 0 50px;}
+footer .box h3{float:left; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#fafafa; margin:0; width:100%;}
+footer .box ul{float:left; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#fafafa; margin:5px 0 0 0px;}
+footer .box li{line-height:100%; padding:15px 0 0 0px; width:100%; float:left; margin:0;}
+footer .box li a{text-decoration:none; color:#fafafa;} 
+footer p{width:100%; height:20px; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#fafafa; margin:310px 0 0 0px; background-color:#212121; padding:10px 0 0 0px;}
+
+
+
+
+
+
+/*sub*/
+#title{float:left; width:100%; height:255px; margin:0; background-color:#edfdfd; background-image:url(../image/sub1.jpg); background-repeat:no-repeat; background-position:20%;}
+#title h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:50px; color:#2e8add; margin:90px 0 0 850px; letter-spacing:5px}
+.f10{font-size:25px;}
+
+#contents{float:left; width:100%; height:4290px; margin:0;}
+#beach{float:left; width:1295px; height:635px; margin:210px 0 0 150px;}
+#beach .box{float:left; width:480px; height:490px; margin:100px 0 0 0px;}
+#beach .box h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#0f6cd5; margin:0 30px 20px 0px;}
+#beach .box h1{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#1386fc; margin:30px 0 0 0px;} 
+#beach .box p{float:left; width:96%; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#95999c; margin:5px 10px 0 0px; text-align:justify;}
+#beach img{float:right; margin:0;}
+
+#park{float:left; width:100%; height:670px; margin:190px 0 0 0px; background-image:url(../image/sub4_1.jpg); background-repeat:no-repeat; background-position:center;}
+#park h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#292929; margin:80px 0 0 1135px;}
+#park h2{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#948e8e; margin:135px 0 0 1278px;}
+#park .box{float:right; width:375px; height:390px; margin:0 255px 0 0px;}
+#park .box h2{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#414040; margin:105px 0 0 40px;}
+#park .box p{float:left; width:80%; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#787a7c; margin:20px 0 0 40px; line-height:150%; text-align:justify;}	 
+
+#palace{float:left; width:1295px; height:510px; margin:190px 0 0 150px;}
+#palace .box{float:left; width:500px; height:405px; margin:40px 0 0 0px;}
+#palace .box h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#175498; margin:0;}
+#palace .box h1{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#4389d7; margin:0;}
+#palace .box p{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#8e9295; margin:20px 0 0 0px; text-align:left; line-height:150%; text-align:justify;}
+#palace img{float:right; margin:50px 0 0 0px;}
+
+#farm{float:left; width:100%; height:685px; margin:190px 0 0 0px; background-image:url(../image/sub6_2.jpg); background-repeat:no-repeat; background-position:center;}
+#farm h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#292929; margin:80px 0 0 280px;}
+#farm h2{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#948e8e; margin:135px 0 0 255px;}
+#farm .box{float:left; width:375px; height:390px; margin:15px 0 0 255px;}
+#farm .box h2{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#414040; margin:105px 0 0 100px;}
+#farm .box p{float:left; width:80%; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#787a7c; margin:25px 0 0 40px; line-height:150%; text-align:justify;}	 
+
+#national{float:left; width:1295px; height:630px; margin:200px 0 0 150px;}
+#national .box{float:left; width:455px; height:400px; margin:90px 0 0 0px;}
+#national .box h4{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#f44601; margin:0 0 0 95px;}
+#national .box h1{float:left; width:100%; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#373737; margin:0 0 0 265px;}
+#national .box p{float:left; width:95%; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#767676; margin:20px 0 0 10px; text-align:left; line-height:150%; text-align:justify;}
+#national img{float:left; margin:0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
